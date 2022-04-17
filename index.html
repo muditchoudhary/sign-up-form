@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,54 @@
     <link rel="stylesheet" href="style.css">
     <title>Sign Up Form</title>
 </head>
+
 <body>
-    Hello
+    <main>
+        <aside>
+            <div>
+                <img src="/Assets/Images/odin-lined.png" alt="Odin's logo">
+                <span>ODIN</span>
+            </div>
+        </aside>
+        <section>
+            <div>
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams. Sign up now to get started. You know you want to.</p>
+            </div>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <p>
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </p>
+                    <p>
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </p>
+                    <p>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number">
+                    </p>
+                    <p>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </p>
+                    <p>
+                        <label for="confirm-password">CONFRIM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </p>
+                </fieldset>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account?<a href="#">Log in</a> </p>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
+
 </html>
