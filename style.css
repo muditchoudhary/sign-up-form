@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('/Assets/Font/webfontkit-20220417-091736/norse-bold-webfont.woff2') format('woff2'),
+        url('/Assets/Font/webfontkit-20220417-091736/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid cyan; */
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 30vw;
+    height: auto;
+    background: url("/Assets/Images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center;
+}
+aside div {
+    display: flex;
+    align-items: center;
+    background: #0000007d;
+    justify-content: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 3.5rem;
+    font-family: norsebold;
+}
+aside img {
+    width: 80px;
+    height: auto;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    background: #ededed;
+}
+
+.signup-form div {
+    margin: 0px 40px;
+    font-size: 1.3rem;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.italic-word {
+    font-style: italic;
+}
+form {
+    background: white;
+    box-shadow: 0px 10px 8px -6px #7c6d6d;
+}
+
+form fieldset {
+    display: flex;
+    width: 70vw;
+    flex-wrap: wrap;
+    border: none;
+}
+form fieldset legend {
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+    margin-left: 30px;
+    padding: 20px 0px;
+}
+form fieldset p {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 15px 0px;
+    margin-left: 30px;
+}
+form fieldset p:nth-child(even) {
+    margin-right: 40px;
+}
