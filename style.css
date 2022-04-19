@@ -20,13 +20,14 @@ main {
 
 aside {
     width: 30vw;
-    height: auto;
+    height: 100vh;
     background: url("/Assets/Images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
     background-position: center;
 }
+
 aside div {
     display: flex;
     align-items: center;
@@ -37,59 +38,112 @@ aside div {
     font-size: 3.5rem;
     font-family: norsebold;
 }
+
 aside img {
     width: 80px;
     height: auto;
 }
+
 .signup-form {
     display: flex;
     flex-direction: column;
     width: 70vw;
+    height: 100vh;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     background: #ededed;
 }
 
 .signup-form div {
-    margin: 0px 40px;
+    margin: 0px 50px;
     font-size: 1.3rem;
-    margin-top: 80px;
-    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
+
 .italic-word {
     font-style: italic;
 }
-form {
-    background: white;
-    box-shadow: 0px 10px 8px -6px #7c6d6d;
-}
 
-form fieldset {
+form section {
     display: flex;
+    background: white;
+    box-shadow: 0px 12px 10px -6px #7c6d6d;
     width: 70vw;
     flex-wrap: wrap;
     border: none;
 }
-form fieldset legend {
-    font-size: 1.5rem;
-    box-sizing: border-box;
-    color: inherit;
-    display: table;
-    max-width: 100%;
-    padding: 0;
-    white-space: normal;
-    margin-left: 30px;
-    padding: 20px 0px;
+
+form section h1 {
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 0px 50px;
+    /* margin-left: 30px; */
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
-form fieldset p {
+
+form section p {
     display: flex;
     flex-direction: column;
     width: 35%;
     font-weight: 200;
     font-size: 1rem;
     margin: 15px 0px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
-form fieldset p:nth-child(even) {
-    margin-right: 40px;
+
+form section p:nth-child(even) {
+    margin-right: 60px;
+}
+
+label {
+    font-size: 0.9rem;
+    padding: 4px;
+}
+
+input {
+    border-radius: 4px;
+    font-size: 1.2rem;
+    width: 95%;
+    border: 2px solid #E5E7EB;
+    height: 76%;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input:focus { 
+    outline: none;
+    border-color: #4888cd;
+    box-shadow: 0px 5px 12px -6px #4c8afb;
+}
+
+form>button {
+    width: 175px;
+    height: 38px;
+    font-size: 1rem;
+    margin: 20px 50px;
+    color: white;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0px 10px 8px -6px #7c6d6d;
+    background-color: #596D48;
+}
+
+.signup-form>p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 50px;
+}
+
+.signup-form>p a {
+    color: #596D48;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 900;
 }
