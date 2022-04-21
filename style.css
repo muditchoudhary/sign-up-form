@@ -26,6 +26,7 @@ aside {
     background-repeat: no-repeat;
     background-origin: border-box;
     background-position: center;
+    position: fixed;
 }
 
 aside div {
@@ -52,6 +53,8 @@ aside img {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     background: #ededed;
+    position: relative;
+    left: 30vw;
 }
 
 .signup-form div {
