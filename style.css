@@ -147,3 +147,7 @@ form>button {
     font-size: 1rem;
     font-weight: 900;
 }
+
+.error {
+    border: 2px solid red;
+}
