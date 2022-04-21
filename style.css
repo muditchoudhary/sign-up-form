@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'norsebold';
-    src: url('/Assets/Font/webfontkit-20220417-091736/norse-bold-webfont.woff2') format('woff2'),
-        url('/Assets/Font/webfontkit-20220417-091736/norse-bold-webfont.woff') format('woff');
+    src: url('Assets/Font/webfontkit-20220417-091736/norse-bold-webfont.woff2') format('woff2'),
+        url('Assets/Font/webfontkit-20220417-091736/norse-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -21,7 +21,7 @@ main {
 aside {
     width: 30vw;
     height: 100vh;
-    background: url("/Assets/Images/halie-west-25xggax4bSA-unsplash.jpg");
+    background: url("Assets/Images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
@@ -81,7 +81,6 @@ form section h1 {
     width: 100%;
     font-size: 1.3rem;
     margin: 0px 50px;
-    /* margin-left: 30px; */
     margin-top: 20px;
     margin-bottom: 8px;
 }
